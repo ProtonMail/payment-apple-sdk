@@ -1,0 +1,25 @@
+// Copyright (c) 2026 Proton Technologies AG
+// This file is part of Proton Technologies AG and Proton Payment.
+//
+// Proton Payment is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Proton Payment is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Proton Payment. If not, see <https://www.gnu.org/licenses/>.
+
+"pricing_period_daily" = "Per day";
+"pricing_period_weekly" = "Per week";
+"pricing_period_monthly" = "Per month";
+"pricing_period_yearly" = "Per 12-months";
+"product_card_get_button_label %@" = "Get %1$@";
+"subscription_card_header_current_plan_label" = "Current plan";
+"subscription_management_screen_title" = "Subscriptions";
+"subscription_management_screen_heading_upgrade" = "Upgrade your plan";
+"subscription_management_modification_scheduled" = "Your subscription will change at the end of your current billing cycle.";

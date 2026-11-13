@@ -1,0 +1,54 @@
+// Copyright (c) 2026 Proton Technologies AG
+// This file is part of Proton Technologies AG and Proton Payment.
+//
+// Proton Payment is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Proton Payment is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Proton Payment. If not, see <https://www.gnu.org/licenses/>.
+
+"payment_exception_core_disabled_payment_method" = "This payment method is currently disabled";
+"payment_exception_core_logging" = "An internal error occurred, try again later";
+"payment_exception_core_parsing" = "An error occurred processing the last response";
+"payment_exception_core_token_polling" = "An error occurred reconciling your purchase";
+"payment_exception_core_credential_less_reconcile" = "Credential-less users cannot reconcile purchases";
+"payment_exception_core_missing_offer_token" = "This offer could not be applied";
+"payment_exception_core_recover_flow_user_misalignment" = "This purchase belongs to a different account";
+"payment_exception_core_session_in_progress" = "A purchase is already in progress";
+"payment_exception_core_unsupported_platform" = "This platform does not support purchases";
+"payment_exception_core_disallowed_subscription" = "This subscription purchase is not allowed";
+"payment_exception_network_failed_to_parse" = "An error occurred processing the network response";
+"payment_exception_network_internal" = "An unknown network error occurred, try again later";
+"payment_exception_network_unreachable" = "Failed to contact the network, check your connection";
+"payment_exception_network_conflict" = "A network conflict occurred, try again";
+"payment_exception_network_failed_with_code" = "The network request failed, try again";
+"payment_exception_network_misdirected_request" = "The network request failed, try again";
+"payment_exception_network_request_timeout" = "The network request timed out, try again";
+"payment_exception_network_server" = "The network request failed, try again";
+"payment_exception_network_too_many_requests" = "Too many requests were made, try again later";
+"payment_exception_network_unprocessable_entity" = "The request could not be processed, try again";
+"payment_exception_network_bad_gateway" = "The server received an invalid response, try again later";
+"payment_exception_network_bad_request" = "The request was invalid, try again";
+"payment_exception_network_forbidden" = "You don't have permission to perform this action";
+"payment_exception_network_internal_server_error" = "The server encountered an error, try again later";
+"payment_exception_network_network_not_available" = "No network connection is available, check your connection";
+"payment_exception_network_not_found" = "The requested resource could not be found";
+"payment_exception_network_not_implemented" = "This feature is not currently supported";
+"payment_exception_network_service_unavailable" = "The service is temporarily unavailable, try again later";
+"payment_exception_network_unauthorized" = "You are not authorized to perform this action";
+"payment_exception_store_acknowledgement" = "The purchase could not be acknowledged";
+"payment_exception_store_fetch_products" = "An error occurred fetching the product catalog";
+"payment_exception_store_internal" = "An unknown store error occurred, try again later";
+"payment_exception_store_purchase" = "An error occurred purchasing the product";
+"payment_exception_store_unavailable" = "The store is currently unavailable, try again later";
+"payment_exception_store_no_unfinished_transaction_found" = "No pending purchase was found to reconcile";
+"payment_exception_unknown" = "An unknown internal error occurred, try again later";
+"payment_exception_unexpected" = "An unexpected error occurred, try again later";
+"payment_exception_configuration_missing_bundle_identifier" = "Unable to determine the app's bundle identifier";

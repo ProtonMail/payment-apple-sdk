@@ -1,0 +1,28 @@
+// Copyright (c) 2026 Proton Technologies AG
+// This file is part of Proton Technologies AG and Proton Payment.
+//
+// Proton Payment is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Proton Payment is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Proton Payment. If not, see <https://www.gnu.org/licenses/>.
+
+/// An offer for a particular store product.
+///
+/// An offer can be either discounted or non-discounted. Each ``StoreProduct`` has exactly one
+/// ``StoreOffer/nonDiscounted(_:)`` offer, which represents the base product price. It can additionally have any
+/// number of ``StoreOffer/discounted(_:)`` offers, which represent discounted prices on offer for the product.
+enum StoreOffer: Sendable, Equatable {
+    /// Exclusively the base offer for a product, containing non-discounted pricing details.
+    case nonDiscounted(StoreNonDiscountedOffer)
+
+    /// A discounted offer, representing varying subtypes of discounted offers.
+    case discounted(StoreDiscountedOffer)
+}
